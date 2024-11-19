@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:padding="16dp">
+
+    <!-- App Name at the Top Center -->
+
+    <!-- Logout Button at the Top Right -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SAOLA"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+android:id="@+id/logoutButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Logout"
+android:background="@drawable/rounded_box"
+android:layout_alignParentEnd="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="20dp" />
+
+    <!-- Box around the Two Buttons in the Middle -->
+<androidx.cardview.widget.CardView
+android:id="@+id/buttonCard"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:layout_marginTop="40dp"
+app:cardElevation="8dp"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="16dp">
+
+    <!-- Centered LinearLayout for Buttons -->
+<LinearLayout
+android:id="@+id/buttonContainer"
+android:layout_width="258dp"
+android:layout_height="235dp"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/img_7"
+    android:layout_centerInParent="true">
+
+    <!-- User Guide Button -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="User Guide->" />
+
+    <!-- Biometric Data Button -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Biometric data->" />
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>

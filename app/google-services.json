@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025943377141",
+    "project_id": "saola-bd112",
+    "storage_bucket": "saola-bd112.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025943377141:android:4e6a6a8fc2045b0919e1bc",
+        "android_client_info": {
+          "package_name": "org.meicode.saola"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWlvrP93ZpobglISZOivuOYP3zy0fsATs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
